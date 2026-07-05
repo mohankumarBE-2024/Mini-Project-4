@@ -1,4 +1,4 @@
-# Mini-Project-4 Tourism Experience Analytics:  Classification, Prediction, and Recommendation System 
+# Mini-Project-4: Tourism Experience Analytics:  Classification, Prediction, and Recommendation System 
 
 ## Overview
 This project focuses on analyzing tourism transaction data to predict user preferences and enhance travel experiences through Machine Learning and Recommendation Systems. The project consists of three major tasks: predicting attraction ratings using regression, predicting users' visit modes using classification, and recommending personalized tourist attractions based on user preferences.
@@ -20,10 +20,12 @@ The dataset contains user demographics, attraction information, visit details, a
 ## Steps Involved
 
 ### 1. Data Preprocessing
-- Loaded the tourism transaction dataset using Pandas.
+- Loaded multiple tourism datasets (Excel files) using Pandas.
+- Merged the datasets based on their respective keys and common attributes to create a unified tourism dataset.
+- Converted the merged dataset into a single CSV file for further processing and analysis.
 - Removed duplicate records and handled missing values.
 - Selected relevant user, attraction, and transaction attributes.
-- Standardized categorical values for consistency.
+- Standardized categorical values to ensure consistency across the dataset.
 - Prepared clean datasets for regression, classification, and recommendation tasks.
 
 ### 2. Feature Engineering
@@ -36,8 +38,7 @@ The dataset contains user demographics, attraction information, visit details, a
 - Explored attraction popularity and user rating patterns.
 - Investigated relationships between user demographics and visit modes.
 - Analyzed rating distributions across different attraction types and regions.
-- Visualized tourism trends using various statistical plots and charts.
-
+- 
 ### 4. PostgreSQL Table Creation & Data Insertion
 - Created PostgreSQL tables for storing processed datasets.
 - Defined appropriate data types for numerical and categorical attributes.
