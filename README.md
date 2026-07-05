@@ -38,7 +38,7 @@ The dataset contains user demographics, attraction information, visit details, a
 - Explored attraction popularity and user rating patterns.
 - Investigated relationships between user demographics and visit modes.
 - Analyzed rating distributions across different attraction types and regions.
-- 
+  
 ### 4. PostgreSQL Table Creation & Data Insertion
 - Created PostgreSQL tables for storing processed datasets.
 - Defined appropriate data types for numerical and categorical attributes.
