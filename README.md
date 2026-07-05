@@ -67,7 +67,6 @@ The dataset contains user demographics, attraction information, visit details, a
 - Built an interactive web application using Streamlit.
 - Retrieved processed data directly from PostgreSQL.
 - Allowed users to provide their travel preferences through an intuitive interface.
-- Predicted attraction ratings using the regression model.
 - Predicted visit modes using the classification model.
 - Generated personalized attraction recommendations using collaborative and content-based recommendation techniques.
 - Presented prediction results and recommendations through a clean and user-friendly interface.
